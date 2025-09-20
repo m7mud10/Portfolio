@@ -521,7 +521,7 @@ spline-viewer{
 	height: 400px;
 	padding: 10px;
 	position: relative;
-	z-index: 3;
+	z-index: 30;
 	object-fit: cover;
 	border-radius: 15rem;
 }
