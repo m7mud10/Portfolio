@@ -1531,7 +1531,7 @@ section {
 	}
 }
 
-@media screen and (max-width:769px) {
+@media screen and (max-width:769px)  {
 	.nav-container {
 		width: 80%;
 		left: 10%;
@@ -1685,36 +1685,6 @@ section {
 	}
 }
 
-@media screen and (max-width: 480px) {
-	.container {
-		padding: 0 1rem;
-	}
-
-	.nav {
-		padding: 1rem;
-	}
-
-	.hero-content {
-		padding: 0 1rem;
-	}
-
-	.hero .hero-content .hero-title {
-		font-size: 1.5rem;
-	}
-
-	section {
-		padding: 3rem 0;
-	}
-	.about .about-container .bg-card{
-		width: 210px;
-		height: 200px;
-		& .about-card{
-			width: 210px;
-			height: 200px;
-			transform: translate(15px, -15px);
-		}
-	}
-}
 @media screen and (max-width:991px) {
 	.footer-sec {
 		padding: 25px 50px;
@@ -1756,5 +1726,42 @@ section {
 
 	.copyright {
 		padding: 15px 50px 0 0;
+	}
+}
+@media screen and (max-width: 480px) {
+	.container {
+		padding: 0 1rem;
+	}
+	.nav-bar {
+		padding: 1rem;
+	}
+	.logo-name{
+		font-size: 20px;
+	}
+	.hero-content {
+		padding: 0 1rem;
+	}
+
+	.hero .hero-content .hero-title {
+		font-size: 1.5rem;
+	}
+
+	.hero .hero-content .hero-title .span {
+		-webkit-text-stroke: 1px var(--color-main) !important;
+	}
+
+	section {
+		padding: 3rem 0;
+	}
+
+	.about .about-container .bg-card {
+		width: 210px;
+		height: 200px;
+
+		& .about-card {
+			width: 210px;
+			height: 200px;
+			transform: translate(15px, -15px);
+		}
 	}
 }
