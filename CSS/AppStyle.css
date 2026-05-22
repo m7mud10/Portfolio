@@ -531,8 +531,8 @@ spline-viewer{
 	animation: fadeInUp 1.5s ease 0.8s both;
 }
 .protfile-img {
-	width: clamp(250px, 30vw, 800px);
-	height: clamp(250px, 30vw, 800px);
+	width: clamp(300px, 30vw, 800px);
+	height: clamp(300px, 30vw, 800px);
 	align-content: center;
 	animation: fadeInUp 1.5s ease;
 	position: relative;
@@ -548,11 +548,11 @@ spline-viewer{
 }
 .protfile-img::before{
 	content: '';
-	width: clamp(250px, 30vw, 800px);
-	height: clamp(250px, 30vw, 800px);
+	width: clamp(300px, 30vw, 800px);
+	height: clamp(300px, 30vw, 800px);
 	position: absolute;
 	background: conic-gradient(transparent 25%,var(--color-main)50%,transparent 50%,var(--color-main)100%);
-	border-radius: 15rem;
+	border-radius: 20rem;
 	z-index: 1;
 	animation: rotate 10s linear infinite;
 }
@@ -1763,5 +1763,9 @@ section {
 			height: 200px;
 			transform: translate(15px, -15px);
 		}
+	}
+	.protfile-img {
+		order: -1;
+		margin-top: 150px;
 	}
 }
