@@ -114,6 +114,8 @@ html {
 	border: none;
 	backdrop-filter: url(#glass) blur(2px) saturate(120%) brightness(1.15) !important;
 	-webkit-backdrop-filter: url(#glass) blur(2px) saturate(120%) brightness(1.15) !important;
+	-moz-backdrop-filter: url(#glass) blur(2px) saturate(120%) brightness(1.15) !important;
+	-o-backdrop-filter: url(#glass) blur(2px) saturate(120%) brightness(1.15) !important;
 	box-shadow: inset 1px 1px 0 var(--lg-highlight), inset 0 0 5px var(--lg-highlight);
 	&:hover{
 		backdrop-filter: url(#glass) blur(2px) saturate(120%) brightness(2) !important;
@@ -1442,6 +1444,8 @@ section {
 		border: none;
 		backdrop-filter: url(#glass) blur(2px) saturate(120%) brightness(1.15) !important;
 		-webkit-backdrop-filter: url(#glass) blur(2px) saturate(120%) brightness(1.15) !important;
+		-moz-backdrop-filter: url(#glass) blur(2px) saturate(120%) brightness(1.15) !important;
+		-o-backdrop-filter: url(#glass) blur(2px) saturate(120%) brightness(1.15) !important;
 		box-shadow: inset 1px 1px 0 var(--lg-highlight), inset 0 0 5px var(--lg-highlight);	
 		&:hover {
 			backdrop-filter: url(#glass) blur(2px) saturate(120%) brightness(2) !important;
@@ -1539,6 +1543,8 @@ section {
 		border: none;
 		backdrop-filter: url(#glass) blur(2px) saturate(120%) brightness(1.15) !important;
 		-webkit-backdrop-filter: url(#glass) blur(2px) saturate(120%) brightness(1.15) !important;
+		-moz-backdrop-filter: url(#glass) blur(2px) saturate(120%) brightness(1.15) !important;
+		-o-backdrop-filter: url(#glass) blur(2px) saturate(120%) brightness(1.15) !important;
 		box-shadow: inset 1px 1px 0 var(--lg-highlight), inset 0 0 5px var(--lg-highlight);
 		border-radius: 3rem;
 		display: flex;
